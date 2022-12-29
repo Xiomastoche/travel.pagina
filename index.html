@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--mis estilos-->
+    <link rel="stylesheet" href="estilo.css" />
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Erica+One&family=Montserrat:wght@800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Erica+One&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <!--ICONO-->
+    <script src="https://kit.fontawesome.com/dc33821122.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./imagenes/logotur.png" type="image/x-icon"/>
+    <!--LINK BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Trotamundos</title>
+  </head>
+  <body>
+    <div class="background container-fluid">
+      <header class="header fixed-top" id="menu">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="./imagenes/logotur.png" alt="logo" width="230" class="logo">
+              </a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center fw-normal px-2">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bolder" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#newsletter">Newsletter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#destinos">Destinos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#waves">Comprar</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+      </header>
+      <main>
+        <section class="first_section">
+          <div class="container-fluid">
+            <div class="row text-center text-white">
+              <div class="col">
+                <h1 class="first_title">VIAJA A LOS MEJORES LUGARES DEL MUNDO</h1>
+              </div>
+            </div>
+            <div class="row text-center">
+              <div class="col">
+                <button type="button" class="btn rounded-0 btn-outline-light border border-3">EXPLORA</button>
+              </div>
+            </div>
+          </div>
+        </section>       
+      </main>
+  </div>
+  <section class="second bg-primary bg-opacity-25 pt-5 pb-5" id="newsletter">
+    <div class="container">
+      <div class="row pt-2 pb-2">
+        <div class="col-md-5">
+          <h2 class="second_title fs-4">Subscribite a nuestro Newsletter</h2>
+          <p class="container_text">Sé el primero en enterarte de nuestras novedades y promociones.</p>
+        </div>
+        <div class="col-md-5 pt-4">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="usuario@hotmail.com">
+        </div>
+        <div class="col-md-2 pt-4">
+          <button type="submit" class="btn btn-primary mb-3">Subscribirse</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container text-center pt-5">
+      <div class="row">
+        <div class="col">
+          <h2 class="second_title fs-3 pb-2" id="destinos">DESTINOS POPULARES</h2>
+          <svg width="10%" height="60px" viewBox="0 0 250 200">
+            <line x1="10" y1="35" x2="230" y2="35" style="stroke:rgb(123, 161, 203); stroke-width:20; stroke-linecap: butt"></line>
+        </svg> 
+        </div>
+      </div>
+      <div class="row">
+       <div class="col-md-4 pb-3">
+        <div class="project-card">
+            <div class="img-content-container">
+              <div class="img-wrap">
+                <img src="./imagenes/disney.jpg" alt="imagen proyecto" class="img" width="200px"/>
+              </div>
+              <div class="detail-wrap">
+                <h3>DISNEY</h3>
+              </div>
+            </div>
+        </div>
+       </div>
+        <div class="col-md-4 pb-3">
+          <div class="project-card">
+            <div class="img-content-container">
+              <div class="img-wrap">
+                <img src="./imagenes/cancun.jpg" alt="imagen proyecto" class="img"/>
+              </div>
+              <div class="detail-wrap">
+                <h3>CANCUN</h3>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4 pb-3">
+          <div class="project-card">
+            <div class="img-content-container">
+              <div class="img-wrap">
+                <img src="./imagenes/brasil.jpg" alt="imagen proyecto" class="img" />
+              </div>
+              <div class="detail-wrap">
+                <h3>RIO DE JANEIRO</h3>
+              </div>
+            </div>
+        
+      </div>
+    </div>
+    
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path
+      fill="#D0F1F7"
+      fill-opacity="1"
+      d="M0,96L48,117.3C96,139,192,181,288,176C384,171,480,117,576,122.7C672,128,768,192,864,197.3C960,203,1056,149,1152,144C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+    ></path>
+  </svg>
+  
+  <section class="second_section" id="waves">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-7 pb-5 px-2">
+          <h2 class="title_pasos fs-4 pb-4" id="nosotros"> Encuentra tu próximo destino en 3 simples pasos</h2>
+          <h3 class="title fs-5 pt-2"><i class="fa-solid fa-location-dot"></i> Elige tu destino soñado</h3>
+          <p class="container_text pt-2 pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, maiores!</p>
+          
+          <h3 class="title fs-5 pt-2"><i class="fa-solid fa-calendar-days"></i> Elige las fechas de viaje</h3>
+          <p class="container_text pt-2 pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, maiores!</p>
+        
+          <h3 class="title fs-5 pt-2"><i class="fa-solid fa-money-check-dollar"></i> Efectua el pago</h3>
+          <p class="container_text pt-2 pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, maiores!</p>
+          
+          <h3 class="title_pasos fs-6 pt-2 pb-3">LISTO ! ARMÁ LAS MALETAS !</h3>
+        </div>
+        <div class="col-md-5 pb-3">
+          <img src="./imagenes/travel.png" alt="" class="img-fluid maletas">
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <footer class="footer">
+      <div class="footer_items text-start">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-md-2">
+                  <p class="footer_text"> <a href="#" class="footer_link"> Inicio</p></a>
+                </div>
+                <div class="col-md-2">
+                  <p class="footer_text"> <a href="#" class="footer_link"> Destinos</p></a>
+                </div>
+                <div class="col-md-2">
+                  <p class="footer_text"><a href="#" class="footer_link">Cómo comprar</p></a>
+                </div>
+                <div class="col-md-2">
+                  <p class="footer_text"><a href="#" class="footer_link">Newsletter</p></a>
+                </div>
+                <div class="col-md-4 text-end">
+                    <a href="#" class="footer_link"><i class="fa-brands fa-instagram fs-4 px-3"></i></a>
+                    <a href="#" class="footer_link"><i class="fa-brands fa-facebook fs-4 px-3"></i></a>
+                    <a href="#" class="footer_link"><i class="fa-brands fa-twitter fs-4 px-3"></i></a>
+                </div>
+            </div>       
+        </div>
+      </div>
+      <div class="footer_copyright text-center bg-dark bg-opacity-25">
+        <hr class="border border-secondary border-1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>© Copyright 2022 Trotamundos | Creada por Xiomara Stochetta</p>
+                </div>
+            </div>
+        </div>
+    </div>             
+    </footer>
+    <!--LINK BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
